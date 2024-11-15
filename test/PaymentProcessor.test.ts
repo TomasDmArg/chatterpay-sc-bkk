@@ -20,7 +20,7 @@ describe("PaymentProcessor", function () {
 
     // Deploy mock ERC20 token
     const USDCFactory = await ethers.getContractFactory("USDC") as USDC__factory;
-    mockToken = await USDCFactory.deploy("Mock Token", "MTK");
+    mockToken = await USDCFactory.deploy("Circle USD", "USDC");
     
     // Deploy PaymentProcessor
     const PaymentProcessor = await ethers.getContractFactory("PaymentProcessor") as PaymentProcessor__factory;
