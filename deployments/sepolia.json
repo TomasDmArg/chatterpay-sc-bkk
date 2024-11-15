@@ -1,0 +1,7 @@
+{
+  "network": "sepolia",
+  "mockUSDC": "0x5CeE0d6CE83b710a3eC2ff44B32b57b60A1359A2",
+  "paymentProcessor": "0x017E5e2Bf0cB7C02ADC794b08ca6286633bF9Bd4",
+  "deployer": "0x276BbaFE2d9bd8b37De190fD1eeA7A939ADa290c",
+  "timestamp": "2024-11-15T10:29:45.758Z"
+}
