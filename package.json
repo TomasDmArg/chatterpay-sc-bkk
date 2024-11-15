@@ -1,7 +1,7 @@
 {
   "name": "payment-processor",
   "module": "index.ts",
-  "type": "module",
+  "type": "commonjs",
   "scripts": {
     "compile": "bunx hardhat compile",
     "test": "bunx hardhat test",
@@ -11,7 +11,13 @@
     "coverage": "bunx hardhat coverage"
   },
   "devDependencies": {
-    "bun-types": "latest"
+    "@nomicfoundation/hardhat-toolbox": "^5.0.0",
+    "@openzeppelin/contracts": "^5.1.0",
+    "@typechain/ethers-v6": "^0.5.1",
+    "@typechain/hardhat": "^9.1.0",
+    "bun-types": "latest",
+    "dotenv": "^16.4.5",
+    "hardhat": "^2.22.15"
   },
   "peerDependencies": {
     "typescript": "^5.0.0"
