@@ -6,8 +6,10 @@
     "compile": "bunx hardhat compile",
     "test": "bunx hardhat test",
     "test-txs:sepolia": "hardhat run scripts/test.ts --network sepolia",
+    "test-txs:arbitrum-sepolia": "hardhat run scripts/test.ts --network arbitrumSepolia",
     "test-txs:local": "hardhat run scripts/test.ts --network localhost",
     "deploy:sepolia": "bunx hardhat run scripts/deploy.ts --network sepolia",
+    "deploy:arbitrum-sepolia": "bunx hardhat run scripts/deploy.ts --network arbitrumSepolia",
     "deploy:local": "bunx hardhat run scripts/deploy.ts --network localhost",
     "node": "bunx hardhat node",
     "coverage": "bunx hardhat coverage"
