@@ -1,0 +1,7 @@
+{
+  "network": "arbitrumSepolia",
+  "mockUSDC": "0xb7d30B69c4C83C799eb1d7d8e28f5Ed5A75C015F",
+  "paymentProcessor": "0xB288c9570753850cb55684F1A90bA7a1238bdC04",
+  "deployer": "0xe54b48F8caF88a08849dCdDE3D3d41Cd6D7ab369",
+  "timestamp": "2024-11-16T05:10:31.248Z"
+}
