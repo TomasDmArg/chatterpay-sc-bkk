@@ -11,6 +11,7 @@
     "deploy:sepolia": "bunx hardhat run scripts/deploy.ts --network sepolia",
     "deploy:arbitrum-sepolia": "bunx hardhat run scripts/deploy.ts --network arbitrumSepolia",
     "deploy:local": "bunx hardhat run scripts/deploy.ts --network localhost",
+    "deploy:polygon": "bunx hardhat run scripts/deploy.ts --network polygon",
     "node": "bunx hardhat node",
     "coverage": "bunx hardhat coverage"
   },

@@ -29,12 +29,27 @@ const config: HardhatUserConfig = {
       url: process.env.ARBITRUM_SEPOLIA_RPC_URL!,
       accounts: process.env.PRIVATE_KEY ? [process.env.PRIVATE_KEY] : [],
     },
+    polygon: {
+      url: process.env.POLYGON_RPC_URL!,
+      accounts: process.env.PRIVATE_KEY ? [process.env.PRIVATE_KEY] : [],
+    },
   },
   etherscan: {
     apiKey: {
       sepolia: process.env.ETHERSCAN_API_KEY!,
       arbitrumSepolia: process.env.ARBISCAN_API_KEY!,
+      polygon: process.env.BLOCKSCOUT_API_KEY!
     },
+    customChains: [
+      {
+        network: "polygon",
+        chainId: 137,
+        urls: {
+          apiURL: "https://polygon.blockscout.com/api",
+          browserURL: "https://polygon.blockscout.com"
+        }
+      }
+    ]
   },
 };
 
